@@ -25,3 +25,69 @@ body {
     text-wrap: balance;
   }
 }
+
+/* RIFT */
+@font-face {
+  font-family: 'rift-bold';
+  src: url('../../assets/fonts/rift/Rift-Bold.otf');
+}
+@font-face {
+  font-family: 'rift-bold-italic';
+  src: url('../../assets/fonts/rift/Rift-Bold-Italic.otf');
+}
+@font-face {
+  font-family: 'rift-demi-italic';
+  src: url('../../assets/fonts/rift/Rift-Demi-Italic.otf');
+}
+@font-face {
+  font-family: 'rift-demi';
+  src: url('../../assets/fonts/rift/Rift-Demi.otf');
+}
+@font-face {
+  font-family: 'rift-italic';
+  src: url('../../assets/fonts/rift/Rift-Italic.otf');
+}
+@font-face {
+  font-family: 'rift-light-italic';
+  src: url('../../assets/fonts/rift/Rift-Light-Italic.otf');
+}
+
+@font-face {
+  font-family: 'rift-light';
+  src: url('../../assets/fonts/rift/Rift-Light.otf');
+}
+
+@font-face {
+  font-family: 'rift-light-medium';
+  src: url('../../assets/fonts/rift/Rift-Medium.otf');
+}
+@font-face {
+  font-family: 'rift-medium';
+  src: url('../../assets/fonts/rift/Rift-Medium.otf');
+}
+@font-face {
+  font-family: 'rift-medium-italic';
+  src: url('../../assets/fonts/rift/Rift-Medium-Italic.otf');
+}
+@font-face {
+  font-family: 'rift-regular';
+  src: url('../../assets/fonts/rift/Rift-Regular.otf');
+}
+
+/* SOLEIL */
+@font-face {
+  font-family: 'soleil-bold';
+  src: url('../../assets/fonts/soleil/SoleilBold.otf');
+}
+@font-face {
+  font-family: 'soleil-book';
+  src: url('../../assets/fonts/soleil/SoleilBook.otf');
+}
+@font-face {
+  font-family: 'soleil-light';
+  src: url('../../assets/fonts/soleil/SoleilLight.otf');
+}
+@font-face {
+  font-family: 'soleil-regular';
+  src: url('../../assets/fonts/soleil/SoleilRegular.otf');
+}
