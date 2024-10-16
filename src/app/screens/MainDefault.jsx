@@ -1,6 +1,7 @@
 import React from 'react';
 import BannerHome from './components/home/BannerHome';
 import Filters from './components/home/Filters';
+import TitleArticle from './components/titles/TitleArticle';
 
 
 const MainDefault = () => {
@@ -10,6 +11,7 @@ const MainDefault = () => {
       className='lg:min-h-screen   min-h-[calc(100vh-4rem)]   text-base text-textMainText  w-full  flex-col  '>
         {/* BANNER */}
         <BannerHome/>
+        <TitleArticle titleArticle='Busca lugares de escalada'/>
         <Filters/>
 
          

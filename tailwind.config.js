@@ -10,14 +10,19 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        'mainGray': '#2D2D2D',
+        mainGray: '#2D2D2D',
+        CustomGray: '#EEEEEE',
+        CustomPink: '#E5427B',
+        CustomDarkPink:'#B32A5A'
+        
       },
 
       backgroundColor:{
 
-        'bgCustomGray': '#EEEEEE',
-        'bgCustomPink': '#E5427B',
-        'bgCustomDarkPink':'#B32A5A'
+        bgCustomGray: '#EEEEEE',
+        bgCustomPink: '#E5427B',
+        bgCustomDarkPink:'#B32A5A',
+        
       }
         
       ,
