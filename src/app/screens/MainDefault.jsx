@@ -9,7 +9,7 @@ const MainDefault = () => {
     
     <div 
       className='lg:min-h-screen   min-h-[calc(100vh-4rem)]   text-base text-textMainText  w-full  flex-col  '>
-        {/* BANNER */}
+        {/* BANNER m */}
         <BannerHome/>
         <TitleArticle titleArticle='Busca lugares de escalada'/>
         <Filters/>
