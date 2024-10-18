@@ -6,7 +6,7 @@ const Filter = ({filterText, optionsArray}) => {
         <select name="" id="" className='py-3 xl:w-52 lg:w-44 lg:gap-0 md:w-36 w-full border-mainGray border bg-white text-textMainText font-riftDemi px-5 flex flex-row justify-between'>
           {optionsArray.map(option=>{
             return(
-                    <option value="uno">{option}</option>
+                    <option value="uno" key=''>{option}</option>
             )
             
           })}
