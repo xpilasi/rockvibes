@@ -4,18 +4,18 @@ import Nav from "./screens/Nav";
 import MainDefault from "./screens/MainDefault";
 import Footer from "./screens/Footer";
 import { useState } from "react";
+import Layout from './Layout.jsx'
+
 
 export default function Home() {
 
-  const [showMenu,setShowMenu] = useState(false);
+  
 
   return (
-    <div className="">
-      <Nav
-        showMenu={showMenu} setShowMenu={setShowMenu}
-      />
+    <Layout className="">
+     
       <MainDefault/>
-      <Footer/>
-    </div>
+    
+    </Layout>
   );
 }
