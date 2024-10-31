@@ -1,8 +1,8 @@
 'use client'
 import { useState } from 'react'
 import React from 'react'
-import Nav from './screens/Nav'
-import Footer from './screens/Footer'
+import Nav from './mainComponents/Nav.jsx'
+import Footer from './mainComponents/Footer.jsx'
 
 const Layout = ({children}) => {
 

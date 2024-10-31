@@ -1,8 +1,8 @@
 'use client'
 import React from 'react'
-import Nav from '../screens/Nav';
+import Nav from '../mainComponents/Nav';
 import Footer
- from '../screens/Footer';
+ from '../mainComponents/Footer';
  import Layout from '../Layout.jsx'
 const DondeEscalar = () => {
   return (

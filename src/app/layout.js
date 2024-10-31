@@ -14,13 +14,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`bg-white text-0-textMainText font-soleilBook
-          
-          `}
-      >
-       
+        className={`bg-white text-0-textMainText font-soleilBook`}>
         {children}
-       
       </body>
     </html>
   );

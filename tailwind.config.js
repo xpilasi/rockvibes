@@ -1,11 +1,20 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  
   theme: {
+    backgroundImage:theme =>({
+      
+      'woman-climber-rocks-bn': "url('/assets/img/fondos/fondo-rocas-bn.jpg')",
+     
+
+    }),
+   
+    
     extend: {
       colors: {
         background: "var(--background)",
@@ -17,15 +26,20 @@ module.exports = {
         
       },
 
+      // backgroundImage:{
+        
+      //   'woman-climber-rocks-bn': "url('/assets/img/fondos/fondo-rocas-bn.jpg')",
+      // },
+
       backgroundColor:{
 
         bgCustomGray: '#EEEEEE',
         bgCustomPink: '#E5427B',
         bgCustomDarkPink:'#B32A5A',
         
-      }
-        
-      ,
+      },
+
+     
       textColor:
         {
           'textBigTitleGraphite':'#2D2D2D',
