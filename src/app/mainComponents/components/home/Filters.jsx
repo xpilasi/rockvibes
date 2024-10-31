@@ -1,6 +1,6 @@
 import React from 'react';
 import Filter from '../Filter';
-import FilterButton from '../FilterButton';
+import FilterButton from '../FilterButton.jsx';
 
 const Filters = () => {
 

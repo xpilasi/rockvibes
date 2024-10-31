@@ -7,14 +7,7 @@ export default {
   ],
   
   theme: {
-    backgroundImage:theme =>({
-      
-      'woman-climber-rocks-bn': "url('/assets/img/fondos/fondo-rocas-bn.jpg')",
-     
 
-    }),
-   
-    
     extend: {
       colors: {
         background: "var(--background)",
@@ -26,10 +19,10 @@ export default {
         
       },
 
-      // backgroundImage:{
+      backgroundImage:{
         
-      //   'woman-climber-rocks-bn': "url('/assets/img/fondos/fondo-rocas-bn.jpg')",
-      // },
+        'woman-climber-rocks-bn': "url('/assets/img/fondos/fondo-rocas-bn.jpg')",
+      },
 
       backgroundColor:{
 
