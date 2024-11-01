@@ -6,7 +6,7 @@ const MenuLogSign = () => {
   return (
     <div className='flex flex-row justify-center gap-2'>
       <div className=' hover:text-textBigTitlePink transition-all duration-200 ease-in-out '>
-        <Link href='#'>Login</Link>
+        <Link href='/login'>Login</Link>
         </div>
 
       <div className='flex flex-row justify-center '>/</div>
@@ -14,7 +14,7 @@ const MenuLogSign = () => {
         
 
       <div className='flex flex-row justify-center hover:text-textBigTitlePink transition-all duration-200 ease-in-out '>
-        <Link href='#'>SignUp</Link>
+        <Link href='/signup'>SignUp</Link>
       
       </div>
     </div>
