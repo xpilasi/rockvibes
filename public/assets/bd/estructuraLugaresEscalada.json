@@ -1,0 +1,19 @@
+{
+
+    "climbingSpots":[
+        {
+            "name":"Sharma Climbing BCN",
+            "title":"title",
+            "subtitle":"subtitle",
+            "totalReviews":5,
+            "description":"description",
+            "location":"location",
+            "totalLikes":4,
+            "category":"Indoor",
+            "boulder": true,
+            "via":true,
+            "city": "Barcelona",
+            "country":"España"
+        }
+    ]
+}
