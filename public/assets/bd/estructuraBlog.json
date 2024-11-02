@@ -1,0 +1,22 @@
+{
+
+    "articles":[
+        {
+            "Name":"articleName",
+            "title":"articleTitle",
+            "subtitle":"subtitle",
+            "author":"author",
+            "creationDate":"creationDate",
+            "lastUpdate":"lastUpdate",
+            "titleContent1": "titleContent1",
+            "content1": "content1",
+            "titleContent2": "titleContent2",
+            "content2":"content2",
+            "titleContent3": "titleContent3",
+            "content3": "content3",
+            "srcImgMain":"srcImgMain",
+            "srcImgPrimary":"srcImgPrimary",
+            "srcImgSecondary":"srcImgSecondary"
+        }
+    ]
+}

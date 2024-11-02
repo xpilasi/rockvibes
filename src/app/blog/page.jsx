@@ -10,9 +10,9 @@ const page = () => {
   const subtitle = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, non hic animi, quas sint officia nihil accusantium voluptatibus quasi dicta repudiandae vero! Adipisci quibusdam obcaecati dolore repellendus ipsa in harum?'
   return (
     <Layout>
-    <div className="">
+    <div className=" bg-white z-10">
       
-      <div className='lg:min-h-screen   min-h-[calc(100vh-4rem)]   text-base text-textMainText  w-full pt-24 lg:px-20 px-5 flex flex-col  '>
+      <div className='lg:min-h-screen min-h-[calc(100vh-4rem)]   text-base text-textMainText  w-full pt-24 lg:px-20 px-5 flex flex-col  '>
         
         <div className='text-8xl font-riftBold pb-5 '>BLOG</div>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 w-full '>

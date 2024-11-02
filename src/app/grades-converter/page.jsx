@@ -29,7 +29,7 @@ const page = () => {
                     <option value="">Elige el grado</option>
                   </select>
                   </div>
-                
+               
               </div>
               <div className='flex flex-row gap-5'>
 
