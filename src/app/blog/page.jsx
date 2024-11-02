@@ -14,7 +14,7 @@ const page = () => {
       
       <div className='lg:min-h-screen min-h-[calc(100vh-4rem)]   text-base text-textMainText  w-full pt-24 lg:px-20 px-5 flex flex-col  '>
         
-        <div className='text-8xl font-riftBold pb-5 '>BLOG</div>
+        <div className='text-8xl font-riftBold pt-7 pb-5 '>BLOG</div>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 w-full '>
 
         
