@@ -85,7 +85,7 @@ const Nav = ({setShowMenu,showMenu}) => {
             ref={navRef}
             className={showMenu 
                         ?` bg-bgCustomGray pointer-events-auto  fixed lg:sticky top-0 lg:top-0 right-0 left-0  lg:h-20 min-h-screen lg:min-h-20 pt-32 pb-52 lg:py-0 text-textMainText font-riftDemi text-lg flex lg:flex-row flex-col justify-between lg:px-20 px-10 items-center transition-opacity duration-200 ease-in-out`
-                        :' opacity-0  pointer-events-none lg:opacity-100 bg-bgCustomGray  fixed lg:sticky top-0 lg:top-0 right-0 left-0  lg:h-20   pt-32 pb-52 lg:py-0 text-textMainText font-riftDemi text-lg flex lg:flex-row flex-col justify-between lg:px-20 px-10 items-center transition-all duration-200 ease-in-out'}>
+                        :' opacity-0 lg:pointer-events-auto pointer-events-none lg:opacity-100 bg-bgCustomGray  fixed lg:sticky top-0 lg:top-0 right-0 left-0  lg:h-20   pt-32 pb-52 lg:py-0 text-textMainText font-riftDemi text-lg flex lg:flex-row flex-col justify-between lg:px-20 px-10 items-center transition-all duration-200 ease-in-out'}>
                     
                       {/* Rockvibes logo */}
                       <a href="/">

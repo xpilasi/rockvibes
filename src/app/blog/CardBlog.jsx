@@ -23,7 +23,7 @@ const CardBlog = ({
       </div>
             
         {/* Descripción */}
-        <div className='pb-5 flex flex-col bg-white  '>
+        <div className='pb-5 flex flex-col   '>
             <div className='pt-5 text-gray-400'>{date}</div>
             <div className=' font-semibold text-2xl h-16 '>{title} </div>
             <div className='font-soleilLight text-gray-500'>{subtitle}</div>
