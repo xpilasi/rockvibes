@@ -11,12 +11,12 @@ const Filters = () => {
   const ciudad = ['Tipo 1', 'Tipo 2', 'Tipo 3']  
 
   return (
-    <div className='py-5 flex flex-col gap-3 lg:flex-row md:flex-row justify-between md:justify-center md:gap-2 lg:px-20 px-5 xl:gap-7'>
+    <div className='py-5 grid  grid-cols-2 lg:flex  flex-col gap-3 lg:flex-row justify-between lg:justify-start md:justify-start md:gap-2 lg:px-0  xl:gap-7'>
         <Filter optionsArray={tipoDeEscalada}/>
         <Filter optionsArray={indoorOutdoor}/>
         <Filter optionsArray={reviews}/>
         <Filter optionsArray={ciudad}/>
-        <FilterButton buttonText='Buscar'/>
+        {/* <FilterButton buttonText='Buscar'/> */}
         
     </div>
   )

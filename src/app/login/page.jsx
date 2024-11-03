@@ -8,7 +8,7 @@ const LoginPage = () => {
 
         <div className='min-h-screen   min-h-[calc(100vh-4rem)]text-base text-textMainText   w-full flex flex-col justify-center items-center align-middle lg:px-20 px-5'>
 
-            <h1 className='font-riftBold text-6xl py-8'>Inicia Sesión</h1>
+            <h1 className='font-riftBold text-6xl pb-16'>Inicia Sesión</h1>
             <section id='login'className='flex flex-col gap-5 lg:w-1/3 md:w-1/2 w-full'>
 
             <button type='submit' className='bg-white border border-gray-400 text-textBigTitleGraphite  py-2 flex flex-row justify-center px-5 gap-5 align-middle items-center'>

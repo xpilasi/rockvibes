@@ -17,8 +17,8 @@ const DondeEscalar = () => {
       
       <div className='lg:min-h-screen min-h-[calc(100vh-4rem)]   text-base text-textMainText  w-full pt-24 lg:px-20 px-5 flex flex-col  '>
         
-        <div className='text-8xl font-riftBold pt-7 pb-5 '>Dónde escalar</div>
-        <div className='py-5'>
+        <div className='lg:text-6xl text-3xl  md:text-5xl font-riftBold  '>Dónde escalar</div>
+        <div className='lg:py-5'>
         <Filters/>
 
         </div>
