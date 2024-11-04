@@ -22,6 +22,8 @@ export default {
       backgroundImage:{
         
         'woman-climber-rocks-bn': "url('/assets/img/fondos/fondo-rocas-bn.jpg')",
+        'pink-ropes': "url('/assets/img/fondos/ropes-pink.jpg')",
+        'rocks-sunset': "url('/assets/img/fondos/rocks-sunset.jpg')",
       },
 
       backgroundColor:{
