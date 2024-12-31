@@ -19,16 +19,17 @@ import { useRef, useState, useEffect } from 'react'
 const DondeEscalar = () => {
 
     const filtersRef = useRef(null);
-    const [showFilters,setShowFilters] = useState(false)
+    const [showFilters,setShowFilters] = useState(true)
 
       useEffect(() => {
         if (filtersRef.current) { // Verifica si filtersRef.current no es null
             if (showFilters) {
-                filtersRef.current.classList.remove('lg:-ml-52');
-                filtersRef.current.classList.add('lg:ml-0')
+              // console.log(showFilters);
+              
+              
             } else {
-              filtersRef.current.classList.add('lg:-ml-52')
-                filtersRef.current.classList.remove('lg:ml-0')
+              // filtersRef.current.classList.add('lg:ml-0')
+              //   filtersRef.current.classList.remove('lg:-ml-52')
             }
         }
     }, [showFilters]);
@@ -116,10 +117,10 @@ const DondeEscalar = () => {
      
 
         {/* filters + main */}
-        <div className='flex lg:flex-row flex-col'>
+        <div className='flex lg:flex-row flex-col '>
 
           {/* filters */}
-          <div className=' transition-all duration-500  lg:h-[calc(100vh-12rem)]  ease-in-out lg:-ml-52   flex flex-col  z-10   lg:px-5 lg:border-r   lg:mr-7  ' ref={filtersRef}>
+          <div className=' transition-all duration-500  lg:h-[calc(100vh-12rem)]  ease-in-out lg:mr-7   flex flex-col  z-10   lg:px-5 lg:border-r    ' ref={filtersRef}>
             <button 
             onClick={()=>handleFilter()}
             className='py-2 px-0 text-pink-200 flex justify-end   '

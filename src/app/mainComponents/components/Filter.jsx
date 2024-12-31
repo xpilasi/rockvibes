@@ -5,7 +5,7 @@ const Filter = ({filterText, optionsArray, showFilter}) => {
     
   return (
     
-        <div className=' border-gray-200 border pr-3 flex flex-row align-middle text-sm'>
+        <div className={showFilter ? 'border-gray-200 border pr-3 flex flex-row align-middle text-sm transition-all duration-500 ease-in-out' : 'hidden'}>
 
         <select name="" id="" 
           className={

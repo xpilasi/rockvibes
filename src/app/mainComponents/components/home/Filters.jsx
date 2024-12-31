@@ -2,7 +2,7 @@ import React from 'react';
 import Filter from '../Filter';
 import FilterButton from '../FilterButton.jsx';
 
-const Filters = (showFilters) => {
+const Filters = ({showFilters}) => {
 
   console.log(`MY-FILTER = ${showFilters}`);
    
@@ -18,7 +18,7 @@ const Filters = (showFilters) => {
         <Filter optionsArray={indoorOutdoor}showFilter={showFilters}/>
         <Filter optionsArray={reviews} showFilter={showFilters}/>
         <Filter optionsArray={ciudad}showFilter={showFilters}/>
-        <FilterButton buttonText='Filtrar'/>
+        <FilterButton buttonText='Filtrar'showFilter={showFilters}/>
         
     </div>
   )

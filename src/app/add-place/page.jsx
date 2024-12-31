@@ -81,7 +81,8 @@ const Page = () => {
             class="sr-only"
             name="file"
             placeholder='upload image'
-            onChange={(e)=>uploadImage(e)} />
+            onChange={(e)=>uploadImage(e)} 
+            />
         </div>
           {/* <input
             className='w-full bg-red-200 py-3 px-3'
@@ -89,7 +90,11 @@ const Page = () => {
             type="file" 
             placeholder='upload image'
             onChange={(e)=>uploadImage(e)} /> */}
-            <button className='h-full bg-pink-300 hover:bg-CustomPink text-white' >Guardar</button>
+            <button 
+            className='h-full bg-pink-300 hover:bg-CustomPink text-white'
+            name='upload-image'
+            onClick={(e)=>uploadImage(e)} 
+            >Guardar</button>
         </div>
           <textarea placeholder='Describe el lugar' className='border h-40 w-full py-3 px-3'/>
         </div>
