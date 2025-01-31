@@ -12,8 +12,7 @@ const MainDefault = () => {
         {/* BANNER m */}
         <BannerHome/>
         
-       
-
+    
          
           
                 

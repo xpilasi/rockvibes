@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Filter = ({filterText, optionsArray, showFilter}) => {
-  console.log(`SHOWFILTER = ${showFilter}`)
+
     
   return (
     

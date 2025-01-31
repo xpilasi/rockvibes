@@ -1,6 +1,6 @@
 "use client";
 import React from 'react'
-import Layout from '../Layout.jsx'
+import Layout from '../layout.jsx'
 import { useState } from 'react';
 
 const Page = () => {

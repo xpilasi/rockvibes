@@ -18,18 +18,25 @@ const Page = () => {
     };
   
     // Nueva función para manejar cambios en el formulario
+    // Desestructura el evento e.target para obtener el nombre y el valor
+    // name es el nombre del input y value es el valor del input
+    // prev => ({ ... }): prev es el valor anterior del estado (formData). 
+    // se utiliza una función de actualización para asegurarse de que se 
+    // mantiene el estado anterior y solo se actualiza el campo que cambió.
+
     const handleInputChange = (e) => {
       const { name, value } = e.target;
-      setFormData(prev => ({
+      setFormData(prev => ({  //Aquí se construye un nuevo objeto con el estado anterior y el nuevo valor
         ...prev,
         [name]: value
       }));
+      // Se almacena el nuevo objeto en el estado formData
     };
   
     // Nueva función que maneja todo el guardado
     const handleSave = async (e) => {
-      e.preventDefault();
-      setLoading(true);
+      e.preventDefault(); // Evita que el formulario se recargue
+      setLoading(true); 
   
       try {
         // Primero subimos la imagen a Cloudinary

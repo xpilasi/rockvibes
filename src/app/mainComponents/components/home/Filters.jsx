@@ -13,13 +13,16 @@ const Filters = ({showFilters}) => {
   const ciudad = ['Tipo 1', 'Tipo 2', 'Tipo 3']  
 
   return (
-    <div className='py-5 grid  grid-cols-2 lg:flex flex-col gap-3  justify-between lg:justify-start md:justify-start md:gap-2   xl:gap-7'>
-        <Filter optionsArray={tipoDeEscalada} showFilter={showFilters}/>
-        <Filter optionsArray={indoorOutdoor}showFilter={showFilters}/>
-        <Filter optionsArray={reviews} showFilter={showFilters}/>
-        <Filter optionsArray={ciudad}showFilter={showFilters}/>
-        <FilterButton buttonText='Filtrar'showFilter={showFilters}/>
-        
+    <div className='container mx-auto px-4 py-5'>
+      <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3'>
+        <div className={`lg:col-span-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 ${showFilters ? 'block' : 'hidden'}`}>
+          <Filter optionsArray={tipoDeEscalada} showFilter={true} />
+          <Filter optionsArray={indoorOutdoor} showFilter={true} />
+          <Filter optionsArray={reviews} showFilter={true} />
+          <Filter optionsArray={ciudad} showFilter={true} />
+        </div>
+        <FilterButton buttonText={showFilters ? 'Cerrar Filtros' : 'Abrir Filtros'} showFilter={true} />
+      </div>
     </div>
   )
 }

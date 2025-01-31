@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const MenuLogSign = () => {
   return (
-    <div className='flex flex-row justify-center gap-2'>
+    <div className='flex flex-row justify-center gap-2 font-rift-demi'>
       <div className=' hover:text-textBigTitlePink transition-all duration-200 ease-in-out '>
         <Link href='/login'>Login</Link>
         </div>
