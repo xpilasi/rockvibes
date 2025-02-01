@@ -19,7 +19,7 @@ const LoginPage = () => {
                     <input type="text" placeholder='Email' className='bg-white py-5 px-5 border border-gray-400 '  />
                     <input type="password" placeholder='Contraseña' className='bg-white py-5 px-5 border border-gray-400' />
                     {/* <input type="password" placeholder='Confirmar Contraseña' className='bg-white py-5 px-5' /> */}
-                    <button type='submit' className='bg-gradient-to-r  from-CustomPink to-CustomDarkPink text-white  py-5'>Login</button>
+                    <button type='submit' className='bg-linear-to-r  from-CustomPink to-CustomDarkPink text-white  py-5'>Login</button>
                 </form>
 
             </section>

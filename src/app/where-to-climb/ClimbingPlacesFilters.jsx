@@ -87,7 +87,7 @@ const ClimbingPlacesFilters = () => {
     return (
         <div className='w-full'>
             <div className='flex justify-between items-center mb-6'>
-                <div className='grid grid-cols-1 sm:grid-cols-3 gap-6 flex-grow'>
+                <div className='grid grid-cols-1 sm:grid-cols-3 gap-6 grow'>
                     {filterConfigs.map((config, index) => (
                         <div key={index} className={`relative z-[${30 - index}]`}>
                             <FilterSelect {...config} />

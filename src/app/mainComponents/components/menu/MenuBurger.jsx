@@ -17,12 +17,12 @@ const MenuBurger = ({ showMenu, setShowMenu }) => {
           }
       >
           <span 
-              className={`absolute top-1.5 w-8 h-1 bg-bgCustomPink transition-all duration-300 ease-in-out transform ${
+              className={`absolute top-1.5 w-8 h-1 bg-Custom-pink transition-all duration-300 ease-in-out transform ${
                   showMenu ? 'rotate-45 translate-y-1.5 translate-x-0.5 w-9' : 'rotate-0'
               }`}
           ></span>
           <span 
-              className={`absolute top-5 left-1/2 w-4 h-1  bg-bgCustomPink transition-all duration-300 ease-in-out transform ${
+              className={`absolute top-5 left-1/2 w-4 h-1  bg-Custom-pink transition-all duration-300 ease-in-out transform ${
                   showMenu ? '-rotate-45 -translate-y-2 w-9 -translate-x-4' : 'rotate-0'
               }`}
           ></span>

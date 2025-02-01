@@ -49,8 +49,8 @@ const DondeEscalar = () => {
     return (
         <Layout>
             <div className=" bg-white z-10">
-                <div className=']  text-base text-textMainText  w-full pt-24  px-5 lg:px-20 0 flex flex-col  '>
-                    <div className='lg:text-6xl text-3xl  md:text-5xl font-rift-demi lg:pb-5   '>Dónde escalar</div>
+                <div className=']  text-base text-main-gray w-full pt-24  px-5 lg:px-20 0 flex flex-col  '>
+                    <div className='lg:text-6xl text-3xl  md:text-5xl font-rift-bold lg:pb-5 tracking-tight '>Dónde escalar</div>
                     <div className='flex lg:flex-row flex-col'>
                        
                         

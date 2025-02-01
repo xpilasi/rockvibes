@@ -3,7 +3,7 @@ import { useState } from 'react'
 import React from 'react'
 import Nav from './mainComponents/Nav.jsx'
 import Footer from './mainComponents/Footer.jsx'
-import './globals.css'
+import './styles/globals.css'
 
 export default function RootLayout({ children }) {
   const [showMenu, setShowMenu] = useState(false);
@@ -15,9 +15,11 @@ export default function RootLayout({ children }) {
         <meta name="description" content="Find your next climbing spot" />
       </head>
       <body className="font-soleil-regular">
-        <div className="min-h-screen bg-white">
+        <div className="min-h-screen ">
           <Nav showMenu={showMenu} setShowMenu={setShowMenu} />
-          {children}
+          <main className="flex-grow">
+            {children}
+          </main>
           <Footer />
         </div>
       </body>

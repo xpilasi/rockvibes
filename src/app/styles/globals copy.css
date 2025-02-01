@@ -1,0 +1,115 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-rift-bold: rift-bold, sans-serif;
+  --font-rift-bold-italic: rift-bold-italic, sans-serif;
+  --font-rift-demi: rift-demi, sans-serif;
+  --font-rift-demi-italic: rift-demi-italic, sans-serif;
+  --font-rift-italic: rift-italic, sans-serif;
+  --font-rift-light: rift-light, sans-serif;
+  --font-rift-light-italic: rift-light-italic, sans-serif;
+  --font-rift-light-medium: rift-light-medium, sans-serif;
+  --font-rift-medium: rift-medium, sans-serif;
+  --font-rift-medium-italic: rift-medium-italic, sans-serif;
+  --font-rift-regular: rift-regular, sans-serif;
+  --font-soleil-bold: soleil-bold, sans-serif;
+  --font-soleil-book: soleil-book, sans-serif;
+  --font-soleil-light: soleil-light, sans-serif;
+  --font-soleil-regular: soleil-regular, sans-serif;
+
+  --color-pink-500: #ff469d;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-main-gray: #2d2d2d;
+  --color-Custom-gray: #eeeeee;
+  --color-Custom-pink: #e5427b;
+  --color-Custom-dark-pink: #b32a5a;
+
+  --background-image-woman-climber-rocks-bn: url('/assets/img/fondos/fondo-rocas-bn.jpg');
+  --background-image-pink-ropes: url('/assets/img/fondos/ropes-pink.jpg');
+  --background-image-rocks-sunset: url('/assets/img/fondos/rocks-sunset.jpg');
+
+  --background-color-bg-custom-gray: #eeeeee;
+  --background-color-bg-custom-pink: #e5427b;
+  --background-color-bg-custom-dark-pink: #b32a5a;
+
+  --text-color-text-big-title-graphite: #2d2d2d;
+  --text-color-text-big-title-pink: #e5427b;
+  --text-color-text-main-text: #4c4c4c;
+}
+
+/*
+  The default border color has changed to `currentColor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+
+
+/* RIFT */
+@font-face {
+  font-family: 'rift-bold';
+  src: url('../../../public/assets/fonts/rift/Rift-Bold.otf');
+}
+@font-face {
+  font-family: 'rift-bold-italic';
+  src: url('../../../public/assets/fonts/rift/Rift-Bold-Italic.otf');
+}
+@font-face {
+  font-family: 'rift-demi-italic';
+  src: url('../../../public/assets/fonts/rift/Rift-Demi-Italic.otf');
+}
+@font-face {
+  font-family: 'rift-demi';
+  src: url('../../../public/assets/fonts/rift/Rift-Demi.otf');
+}
+@font-face {
+  font-family: 'rift-italic';
+  src: url('../../../public/assets/fonts/rift/Rift-Italic.otf');
+}
+@font-face {
+  font-family: 'rift-light-italic';
+  src: url('../../../public/assets/fonts/rift/Rift-Light-Italic.otf');
+}
+
+@font-face {
+  font-family: 'rift-light';
+  src: url('../../../public/assets/fonts/rift/Rift-Light.otf');
+}
+
+@font-face {
+  font-family: 'rift-light-medium';
+  src: url('../../../public/assets/fonts/rift/Rift-Medium.otf');
+}
+@font-face {
+  font-family: 'rift-medium';
+  src: url('../../../public/assets/fonts/rift/Rift-Medium.otf');
+}
+@font-face {
+  font-family: 'rift-medium-italic';
+  src: url('../../../public/assets/fonts/rift/Rift-Medium-Italic.otf');
+}
+@font-face {
+  font-family: 'rift-regular';
+  src: url('../../../public/assets/fonts/rift/Rift-Regular.otf');
+}
+
+/* SOLEIL */
+@font-face {
+  font-family: 'soleil-bold';
+  src: url('../../../public/assets/fonts/soleil/SoleilBold.otf');
+}
+@font-face {
+  font-family: 'soleil-book';
+  src: url('../../../public/assets/fonts/soleil/SoleilBook.otf');
+}
+@font-face {
+  font-family: 'soleil-light';
+  src: url('../../../public/assets/fonts/soleil/SoleilLight.otf');
+}
+@font-face {
+  font-family: 'soleil-regular';
+  src: url('../../../public/assets/fonts/soleil/SoleilRegular.otf');
+}

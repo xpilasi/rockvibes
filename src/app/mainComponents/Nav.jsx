@@ -53,7 +53,7 @@ const Nav = ({setShowMenu,showMenu}) => {
 
   
   return (
-    <header id='full-header' className='fixed top-0 w-full z-50 '>
+    <header id='full-header' className='fixed top-0 w-full z-50 bg-gray-100'>
        <div className='lg:hidden bg-bgCustomGray h-16 flex py-3 flex-row justify-start pl-5 items-center fixed top-0 w-full z-50'>
         <div className='w-24'>
           {/* <Link src='/' alt=''> */}
@@ -84,7 +84,7 @@ const Nav = ({setShowMenu,showMenu}) => {
             id='full-nav'
             ref={navRef}
             className={showMenu 
-                        ?` bg-bgCustomGray pointer-events-auto  fixed lg:sticky top-0 lg:top-0 right-0 left-0  lg:h-20 min-h-screen lg:min-h-20 pt-32 pb-52 lg:py-0 text-textMainText font-riftDemi text-lg flex lg:flex-row flex-col justify-between lg:px-20 px-10 items-center transition-opacity duration-200 ease-in-out`
+                        ?` bg-bg-custom-gray pointer-events-auto  fixed lg:sticky top-0 lg:top-0 right-0 left-0  lg:h-20 min-h-screen lg:min-h-20 pt-32 pb-52 lg:py-0 text-textMainText font-riftDemi text-lg flex lg:flex-row flex-col justify-between lg:px-20 px-10 items-center transition-opacity duration-200 ease-in-out`
                         :' opacity-0 lg:pointer-events-auto pointer-events-none lg:opacity-100 bg-bgCustomGray  fixed lg:sticky top-0 lg:top-0 right-0 left-0  lg:h-20   pt-32 pb-52 lg:py-0 text-textMainText font-riftDemi text-lg flex lg:flex-row flex-col justify-between lg:px-20 px-10 items-center transition-all duration-200 ease-in-out'}>
                     
                       {/* Rockvibes logo */}
