@@ -10,10 +10,6 @@ export default function RootLayout({ children }) {
   
   return (
     <html lang="en">
-      <head>
-        <title>Rock Vibes</title>
-        <meta name="description" content="Find your next climbing spot" />
-      </head>
       <body className="font-soleil-regular">
         <div className="min-h-screen bg-white">
           <Nav showMenu={showMenu} setShowMenu={setShowMenu} />
