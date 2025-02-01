@@ -29,7 +29,7 @@ body {
 /* RIFT */
 @font-face {
   font-family: 'rift-bold';
-  src: url('../../public/assets/fonts/rift/Rift-Bold.otf');
+  src: url('/assets/fonts/rift/Rift-Bold.otf');
 }
 @font-face {
   font-family: 'rift-bold-italic';
@@ -77,7 +77,7 @@ body {
 /* SOLEIL */
 @font-face {
   font-family: 'soleil-bold';
-  src: url('../../public/assets/fonts/soleil/SoleilBold.otf');
+  src: url('/assets/fonts/soleil/SoleilBold.otf');
 }
 @font-face {
   font-family: 'soleil-book';
