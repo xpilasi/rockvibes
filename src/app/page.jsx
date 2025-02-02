@@ -1,8 +1,7 @@
-import MainDefault from './mainComponents/MainDefault'
 
 export default function Home() {
   return (
-    <div className="p-4 bg-blue-500 text-white">
+    <div className="p-4 pt-30  text-white h-screen">
       <h1 className="text-2xl font-bold">Test Tailwind 1</h1>
     </div>
   )

@@ -6,7 +6,7 @@ import Footer from './mainComponents/Footer.jsx'
 import './styles/globals.css'
 
 export default function RootLayout({ children }) {
-  const [showMenu, setShowMenu] = useState(false);
+  const [showMenu, setShowMenu] = useState(undefined);
   
   return (
     <html lang="en">
@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
         <meta name="description" content="Find your next climbing spot" />
       </head>
       <body className="font-soleil-regular">
-        <div className="min-h-screen ">
+        <div className="min-h-screen bg-green-200 ">
           <Nav showMenu={showMenu} setShowMenu={setShowMenu} />
           <main className="flex-grow">
             {children}
