@@ -6,7 +6,10 @@ import Footer from './mainComponents/Footer.jsx'
 import './styles/globals.css'
 
 export default function RootLayout({ children }) {
-  const [showMenu, setShowMenu] = useState(undefined);
+  const [showMenu, setShowMenu] = useState(false);
+
+  console.log(`showMenu: ${showMenu}`)
+  
   
   return (
     <html lang="en">
