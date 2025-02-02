@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const SignUpPage = () => {
   return (
-    <Layout>
+  
 
         <div className='min-h-screen z-50  min-h-[calc(100vh-4rem)]text-base text-textMainText   w-full flex flex-col justify-center items-center align-middle g:px-20 px-5'>
 
@@ -25,7 +25,7 @@ const SignUpPage = () => {
             </section>
         
         </div>
-    </Layout>
+    
   )
 }
 

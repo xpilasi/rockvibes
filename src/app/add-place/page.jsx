@@ -2,6 +2,7 @@
 import React from 'react'
 import Layout from '../layout.jsx'
 import { useState } from 'react';
+import Title from '@/components/Title.jsx';
 
 const Page = () => {
 
@@ -51,7 +52,7 @@ const Page = () => {
       
       <div className='lg:min-h-screen min-h-[calc(100vh-4rem)]   text-base text-textMainText  w-full pt-24 lg:px-20 px-5 flex flex-col  '>
         
-        <div className='lg:text-6xl text-3xl  md:text-5xl font-riftBold '>ADD PLACE</div>
+        <Title title="ADD PLACE" subtitle="Add a new place" text="Add a new place to the map" />
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 w-full py-5 '>
 
        

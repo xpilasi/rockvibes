@@ -4,7 +4,6 @@ import Image from 'next/image';
 
 const LoginPage = () => {
   return (
-    <Layout>
 
         <div className='min-h-screen   min-h-[calc(100vh-4rem)]text-base text-textMainText   w-full flex flex-col justify-center items-center align-middle lg:px-20 px-5'>
 
@@ -25,7 +24,7 @@ const LoginPage = () => {
             </section>
         
         </div>
-    </Layout>
+        
   )
 }
 

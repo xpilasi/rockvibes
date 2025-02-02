@@ -115,7 +115,7 @@ const ClimbingPlacesFilters = () => {
                         date={place.creationDate}
                         title={place.title}
                         description={place.description}
-                        srcImg={place.scrImg}
+                        srcImg={place.srcImg}
                         location={place.location}
                         rating={place.rating}
                     />

@@ -1,4 +1,4 @@
-// 'use client'
+'use client'
 import React from 'react';
 import Image from 'next/image';
 import MenuDesk from './components/menu/MenuDesk';
@@ -8,12 +8,17 @@ import Language from './components/menu/Language';
 import MenuBurger from './components/menu/MenuBurger';
 import { useState,useRef,useEffect } from 'react';
 import Link from 'next/link';
+import { usePathname, useRouter } from 'next/navigation';
 
-const Nav = ({setShowMenu,showMenu}) => {
+const Nav = () => {
+  const [showMenu, setShowMenu] = useState(false);
+  const pathname = usePathname();
+  const router = useRouter();
 
   const navRef = useRef(null)
   const logoNavRef = useRef(null)
   const loginNavRef = useRef(null)
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handleScroll = () => {
     if (navRef.current) {
@@ -51,10 +56,14 @@ const Nav = ({setShowMenu,showMenu}) => {
   };
   }, []);
 
-  
+  const handleNavigation = (path) => {
+    setIsMenuOpen(false); // Close mobile menu if open
+    router.push(path);
+  };
+
   return (
     <header id='full-header' className='fixed top-0 w-full z-50 bg-gray-100'>
-       <div className='lg:hidden bg-bgCustomGray h-16 flex py-3 flex-row justify-start pl-5 items-center fixed top-0 w-full z-50'>
+       <div className='lg:hidden bg-white h-16 flex py-3 flex-row justify-start pl-5 items-center fixed top-0 w-full z-50'>
         <div className='w-24'>
           {/* <Link src='/' alt=''> */}
           <a href="/">

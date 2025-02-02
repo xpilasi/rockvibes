@@ -113,3 +113,32 @@
   font-family: 'soleil-regular';
   src: url('../../../public/assets/fonts/soleil/SoleilRegular.otf');
 }
+
+/* Custom Swiper Navigation and Pagination Colors */
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--color-Custom-pink) !important;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  transform: scale(0.7);
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  opacity: 0.5;
+}
+
+.swiper:hover .swiper-button-next,
+.swiper:hover .swiper-button-prev {
+  opacity: 1;
+}
+
+.swiper-pagination-bullet {
+  background: var(--color-Custom-pink) !important;
+  opacity: 0.5;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background: var(--color-Custom-pink) !important;
+}
