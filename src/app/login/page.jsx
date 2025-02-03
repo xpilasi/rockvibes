@@ -1,5 +1,4 @@
 import React from 'react';
-import Layout from '../layout.jsx';
 import Image from 'next/image';
 
 const LoginPage = () => {

@@ -1,6 +1,6 @@
 "use client";
 import React from 'react'
-import Layout from '../layout.jsx'
+
 import { useState } from 'react';
 import Title from '@/components/Title.jsx';
 
@@ -47,7 +47,7 @@ const Page = () => {
     }
 
   return (
-    <Layout>
+    
     <div className=" bg-white z-10">
       
       <div className='lg:min-h-screen min-h-[calc(100vh-4rem)]   text-base text-textMainText  w-full pt-24 lg:px-20 px-5 flex flex-col  '>
@@ -105,7 +105,7 @@ const Page = () => {
       
       
     </div>
-    </Layout>
+    
   )
 }
 
