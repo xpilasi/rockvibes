@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react'
 import FilterSelect from './components/FilterSelect'
 import CardClimbingPlace from './CardClimbingPlace'
-import Spinner from '../components/Spinner'
+import Spinner from '@/components/Spinner'
 import { IoRefreshOutline } from 'react-icons/io5'
 
 const ClimbingPlacesFilters = () => {

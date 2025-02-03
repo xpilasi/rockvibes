@@ -18,7 +18,6 @@ const Nav = () => {
   const navRef = useRef(null)
   const logoNavRef = useRef(null)
   const loginNavRef = useRef(null)
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handleScroll = () => {
     if (navRef.current) {
@@ -57,9 +56,14 @@ const Nav = () => {
   }, []);
 
   const handleNavigation = (path) => {
-    setIsMenuOpen(false); // Close mobile menu if open
+    setShowMenu(false); // Cierra el menú móvil
     router.push(path);
   };
+
+  // Cierra el menú cuando cambia la ruta
+  useEffect(() => {
+    setShowMenu(false);
+  }, [pathname]);
 
   return (
     <header id='full-header' className='fixed top-0 w-full z-50 bg-gray-100'>
