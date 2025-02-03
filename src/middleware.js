@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server'
 
 export function middleware(request) {
   // Check if the request is for the old route
+//   com
   if (request.nextUrl.pathname === '/add-place') {
     // Redirect to the new route
     return NextResponse.redirect(new URL('/add-climbing-place', request.url))
